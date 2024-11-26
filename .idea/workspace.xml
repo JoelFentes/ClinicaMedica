@@ -4,30 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91a4fcaf-7c8f-42a2-ae5a-f8058931c71a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClinicaMedica.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Especialidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/FilaAtendimento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Paciente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/observer/Atendente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/observer/FilaNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/observer/NotificacaoObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/singleton/AtendimentoSimulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/singleton/FilaManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/state/Atendido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/state/EmEspera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/state/EstadoAtendimento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/state/Finalizado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/PacienteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/FilaAtendimentoView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/PacienteView.java" afterDir="false" />
+    <list default="true" id="91a4fcaf-7c8f-42a2-ae5a-f8058931c71a" name="Changes" comment="Projeto Programação 3 - Clinica">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +24,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/JoelFentes/ClinicaMedica",
+    "accountId": "4c7af4dd-ee2e-4083-b022-5d74e9cbe013"
+  }
 }]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2pOhxZabu21rvsAOgG92BVqM3XH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,21 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="patterns.state" />
@@ -92,11 +77,106 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732643279975</updated>
-      <workItem from="1732643281055" duration="14983000" />
+      <workItem from="1732643281055" duration="15338000" />
+      <workItem from="1732661985083" duration="36000" />
+      <workItem from="1732662049161" duration="371000" />
     </task>
+    <task id="LOCAL-00001" summary="Projeto Programação 3 - Clinica">
+      <option name="closed" value="true" />
+      <created>1732661259391</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732661259391</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Projeto Programação 3 - Clinica">
+      <option name="closed" value="true" />
+      <created>1732661276543</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732661276543</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Projeto Programação 3 - Clinica">
+      <option name="closed" value="true" />
+      <created>1732661386054</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732661386054</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="date">
+                    <value>
+                      <list>
+                        <option value="1732575967064" />
+                        <option value="" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Projeto Programação 3 - Clinica" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projeto Programação 3 - Clinica" />
   </component>
 </project>
