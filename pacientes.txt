@@ -1,0 +1,10 @@
+1,João Silva,CARDIOLOGIA,não
+2,Maria Oliveira,PEDIATRIA,sim
+3,José Souza,DERMATOLOGIA,não
+4,Ana Costa,CARDIOLOGIA,sim
+5,Carlos Pereira,CARDIOLOGIA,não
+6,Camila Santos,ORTOPEDIA,não
+7,Ricardo Almeida,ORTOPEDIA,sim
+8,Fernanda Lima,PEDIATRIA,não
+9,Lucas Martins,PEDIATRIA,sim
+10,Paula Rodrigues,DERMATOLOGIA,não
